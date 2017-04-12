@@ -436,10 +436,10 @@
   #define MSG_SHORT_MINUTE                    "m" // One character only
 #endif
 #ifndef MSG_HEATING
-  #define MSG_HEATING                         "Heating..."
+  #define MSG_HEATING                         "EXT. Heating..." // DAQ
 #endif
 #ifndef MSG_HEATING_COMPLETE
-  #define MSG_HEATING_COMPLETE                "Heating done."
+  #define MSG_HEATING_COMPLETE                "EXT. Heating done."  // DAQ
 #endif
 #ifndef MSG_BED_HEATING
   #define MSG_BED_HEATING                     "Bed Heating."
