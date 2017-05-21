@@ -122,7 +122,8 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000]
  */
-#define BAUDRATE 250000
+//#define BAUDRATE 250000
+#define BAUDRATE 115200
 
 // Enable the Bluetooth serial interface on AT90USB devices
 //#define BLUETOOTH
@@ -683,7 +684,7 @@
 // decrease to move up
 // increase to move down
 
-#define CUSTOM_MACHINE_NAME "Anycubic Kossel Q2.q" // daq
+#define CUSTOM_MACHINE_NAME "Anycubic Kossel Q2.r" // daq
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 4000
