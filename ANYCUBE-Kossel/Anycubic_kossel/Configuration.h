@@ -679,15 +679,16 @@
 //#define Z_PROBE_OFFSET_FROM_EXTRUDER -14.16  // Z offset: -below +above  [the nozzle] // daq  Caliper difference of 0.03 on the center output (G30 reads 13.75, G29 4x4 reads -0.01)
 //#define Z_PROBE_OFFSET_FROM_EXTRUDER -13.96  // Z offset: -below +above  [the nozzle] // daq  Caliper difference of 0.03 on the center output (G30 reads 13.75, G29 4x4 reads -0.01)
 //#define Z_PROBE_OFFSET_FROM_EXTRUDER -14.11  // Z offset: -below +above  [the nozzle] // daq  Caliper difference of 0.03 on the center output (G30 reads 13.75, G29 4x4 reads -0.01)
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -14.31  // Z offset: -below +above  [the nozzle] // daq  Caliper difference of 0.03 on the center output (G30 reads 13.75, G29 4x4 reads -0.01)
+//#define Z_PROBE_OFFSET_FROM_EXTRUDER -14.31  // Z offset: -below +above  [the nozzle] // daq  Caliper difference of 0.03 on the center output (G30 reads 13.75, G29 4x4 reads -0.01)//
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -14.50  // Z offset: -below +above  [the nozzle] // daq  Caliper difference of 0.03 on the center output (G30 reads 13.75, G29 4x4 reads -0.01)
 
 // decrease to move up
 // increase to move down
 
-#define CUSTOM_MACHINE_NAME "Anycubic Kossel Q2.r" // daq
+#define CUSTOM_MACHINE_NAME "Anycubic Kossel Q3.5" // daq
 
 // X and Y axis travel speed (mm/m) between probes
-#define XY_PROBE_SPEED 4000
+#define XY_PROBE_SPEED 3000
 // Speed for the first approach when double-probing (with PROBE_DOUBLE_TOUCH)
 #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z
 // Speed for the "accurate" probe of each point
@@ -1033,25 +1034,18 @@
 //#define MANUAL_Y_HOME_POS 0
 //#define MANUAL_Z_HOME_POS 300 // Distance between the nozzle to printbed after homing
 //#define MANUAL_Z_HOME_POS 313.72 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 312.34 // Distance between the nozzle to printbed after homing // daq  // to high by 1.31
-//#define MANUAL_Z_HOME_POS 313.65 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 314.15 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.05 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.15 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.00 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.29 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.19 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.09 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 312.84 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 312.56 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.438 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.513 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.66 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.335 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.535 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.885 // Distance between the nozzle to printbed after homing // daq
-//#define MANUAL_Z_HOME_POS 313.775 // Distance between the nozzle to printbed after homing // daq
-#define MANUAL_Z_HOME_POS 310.715 // Distance between the nozzle to printbed after homing // daq
+
+//#define MANUAL_Z_HOME_POS 310.715 // Distance between the nozzle to printbed after homing // daq
+//#define MANUAL_Z_HOME_POS 299.865 // Distance between the nozzle to printbed after homing // daq 7/23/2017
+//#define MANUAL_Z_HOME_POS 299.655 // Distance between the nozzle to printbed after homing // daq 7/23/2017
+//#define MANUAL_Z_HOME_POS 300.185 // Distance between the nozzle to printbed after homing // daq 7/23/2017
+#define MANUAL_Z_HOME_POS 299.985 // Distance between the nozzle to printbed after homing // daq 7/23/2017
+
+
+
+
+// line 683 for Q3.xxxx
+
 
 // ---------------------> Increase number to move down
 // ---------------------> Decrease number to move up.
